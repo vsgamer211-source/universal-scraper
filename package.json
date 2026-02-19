@@ -1,0 +1,29 @@
+{
+  "name": "universal-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^143.0.4",
+    "axios": "^1.13.5",
+    "cheerio": "^1.2.0",
+    "next": "16.1.6",
+    "playwright": "^1.58.2",
+    "playwright-core": "^1.58.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.33",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "typescript": "^5.9.3"
+  }
+}
