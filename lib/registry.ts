@@ -1,7 +1,9 @@
 import { Provider } from "./types";
 import { GenericProvider } from "../providers/generic";
+import { AnnasProvider } from "../providers/annas";
 
 const providers: Provider[] = [
+  AnnasProvider,
   GenericProvider,
 ];
 

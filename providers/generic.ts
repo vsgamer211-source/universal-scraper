@@ -8,7 +8,8 @@ export const GenericProvider: Provider = {
   match: () => true,
 
   scrape: async (url: string) => {
-    const html = await fetchWithPlaywright(url);
+    const result = await fetchWithPlaywright(url);
+    const html = typeof result === "string" ? result : result.html;
     return parseGeneric(html);
   },
 };
